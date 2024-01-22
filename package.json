@@ -1,0 +1,20 @@
+{
+    "name": "decorators",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node --loader ts-node/esm index.ts",
+      "debug": "node --inspect=0.0.0.0 -r ts-node/register ./src/index.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/node": "^20.11.5",
+      "nodemon": "^3.0.3",
+      "ts-node": "^10.9.2",
+      "tsconfig-paths": "^4.2.0",
+      "typescript": "^5.3.3"
+    }
+  }
+  
